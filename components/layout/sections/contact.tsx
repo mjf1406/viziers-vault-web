@@ -21,8 +21,8 @@ export const ContactSection = () => {
                     Get Help & Provide Feedback
                 </h2>
                 <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                    Have questions about Vizier's Vault or suggestions for new
-                    features? We'd love to hear from you.
+                    Have questions about Vizier&apos;s Vault or suggestions for
+                    new features? We&apos;d love to hear from you.
                 </p>
             </div>
 

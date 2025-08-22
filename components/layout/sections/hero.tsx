@@ -21,7 +21,9 @@ export const HeroSection = () => {
                         <span className="mr-2 text-primary">
                             <Badge>Alpha 1</Badge>
                         </span>
-                        <span>Magic Shop & Spellbook Generators Available</span>
+                        <span>
+                            Magic Shop &amp; Spellbook Generators Available
+                        </span>
                     </Badge>
 
                     <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">

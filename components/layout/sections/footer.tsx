@@ -19,7 +19,7 @@ export const FooterSection = () => {
                         >
                             <ChevronsDownIcon className="w-9 h-9 mr-2 bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg border border-secondary" />
 
-                            <h3 className="text-2xl">Vizier's Vault</h3>
+                            <h3 className="text-2xl">Vizier&apos;s Vault</h3>
                         </Link>
                         <p className="text-muted-foreground mt-2">
                             D&D 5e content generators for game masters and
@@ -183,7 +183,8 @@ export const FooterSection = () => {
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-muted-foreground">
-                        © 2024 Vizier's Vault. Built for the TTRPG community.
+                        © 2024 Vizier&apos;s Vault. Built for the TTRPG
+                        community.
                     </p>
 
                     <div className="flex gap-4">
