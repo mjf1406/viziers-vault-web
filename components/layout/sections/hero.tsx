@@ -30,7 +30,7 @@ export const HeroSection = () => {
                         <h1>
                             Generate D&D 5e content with
                             <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                                Vizier's Vault
+                                Vizier&apos;s Vault
                             </span>
                         </h1>
                     </div>
