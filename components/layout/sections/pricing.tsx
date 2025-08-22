@@ -10,6 +10,7 @@ import {
     CardTitle,
 } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import Link from "next/link";
 
 enum PopularPlan {
     NO = 0,
@@ -61,7 +62,10 @@ const plans: PlanProps[] = [
 
 export const PricingSection = () => {
     return (
-        <section className="container py-24 sm:py-32">
+        <section
+            id="pricing"
+            className="container py-24 sm:py-32"
+        >
             <h2 className="text-lg text-primary text-center mb-2 tracking-wider">
                 Pricing
             </h2>
@@ -126,6 +130,7 @@ export const PricingSection = () => {
 
                             <CardFooter>
                                 <Button
+                                    asChild
                                     variant={
                                         popular === PopularPlan?.YES
                                             ? "default"
@@ -133,7 +138,9 @@ export const PricingSection = () => {
                                     }
                                     className="w-full"
                                 >
-                                    {buttonText}
+                                    <Link href="https://app.viziersvault.com/">
+                                        {buttonText}
+                                    </Link>
                                 </Button>
                             </CardFooter>
                         </Card>
