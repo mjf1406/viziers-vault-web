@@ -19,9 +19,15 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
     {
-        title: "Custom World Creation",
+        title: "Fully Customizable",
         description:
-            "Create and save custom worlds and cities for use across all generators. Build persistent campaign settings.",
+            "All generator settings, even the ones that are hard to understand, are available for you to customize.",
+        pro: 1,
+    },
+    {
+        title: "Access Anywhere",
+        description:
+            "All things you have ever generated and all of your settings are saved in the cloud for you to use on any computer.",
         pro: 1,
     },
     {
@@ -34,7 +40,7 @@ const serviceList: ServiceProps[] = [
         title: "Party Balance Integration",
         description:
             "Generate encounters automatically balanced for your party's composition and levels.",
-        pro: 1,
+        pro: 0,
     },
     {
         title: "VTT Compatibility",

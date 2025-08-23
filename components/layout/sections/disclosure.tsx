@@ -14,23 +14,22 @@ interface DisclosureItemProps {
 const disclosureItems: DisclosureItemProps[] = [
     {
         icon: "Palette",
-        title: "UI Development",
+        title: "UI",
         description:
             "AI was used to help with the UI because I hate coding UI.",
         type: "ai",
     },
     {
         icon: "Brush",
-        title: "Art Creation",
-        description:
-            "AI was NOT and will never be used for the art because human art is better.",
+        title: "Art",
+        description: "AI was not and will never be used for the art.",
         type: "human",
     },
     {
         icon: "Code",
-        title: "Algorithms",
+        title: "Algos",
         description:
-            "AI was NOT and will never be used for the algorithms because I love coding algorithms. Algorithms are my jam!",
+            "AI was not and will never be used for the algorithms because I love coding algorithms. Algorithms are my jam!",
         type: "human",
     },
 ];
@@ -103,8 +102,8 @@ export const DisclosureSection = () => {
                         tasks that benefit from automation, while preserving
                         human creativity and expertise for the core elements
                         that make Vizier&apos;s Vault unique. All algorithms,
-                        game mechanics, and artistic decisions are made by
-                        humans who understand and love D&D.
+                        game mechanics, and artistic decisions are made by me, a
+                        TTRPG GM and player, and freelancers.
                     </p>
                 </div>
             </div>

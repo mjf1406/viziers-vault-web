@@ -21,13 +21,13 @@ const benefitList: BenefitsProps[] = [
         icon: "Shield",
         title: "Balanced Content",
         description:
-            "All generated content is automatically balanced for your party's level and composition using D&D 5e guidelines.",
+            "All generated content is automatically balanced for your party's level and composition using D&D 5e 2024 guidelines.",
     },
     {
         icon: "Database",
-        title: "Comprehensive Data",
+        title: "Seamless UX",
         description:
-            "Access to complete D&D 5e 2024 data including spells, magic items, and monster statistics for accurate generation.",
+            "Instant updates on your end with seamless updates on the server.",
     },
     {
         icon: "Settings",
@@ -55,7 +55,7 @@ export const BenefitsSection = () => {
                     <p className="text-xl text-muted-foreground mb-8">
                         Focus on storytelling and player engagement while our
                         tools handle the mechanical aspects of campaign
-                        preparation.
+                        preparation and generation.
                     </p>
                 </div>
 

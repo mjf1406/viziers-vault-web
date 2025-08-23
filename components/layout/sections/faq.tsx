@@ -21,7 +21,7 @@ const FAQList: FAQProps[] = [
     },
     {
         question: "Can I use the free version for my campaigns?",
-        answer: "Yes, the free version includes Magic Shop and Spellbook generators with premade cities. You can export results as CSV files, though data won't persist between sessions.",
+        answer: "Yes, the free version includes all generators with premade cities and worlds, but no data persistance, so once you leave the page or your computer has to free up some RAM, you may lose everything. You can export generations as CSV files, though data won't persist between sessions.",
         value: "item-2",
     },
     {
@@ -43,6 +43,11 @@ const FAQList: FAQProps[] = [
         question: "Can I create custom content or modify the generators?",
         answer: "Currently, the generators use official D&D 5e data. Custom world and city creation is available in Premium, and we're working on more customization options for future releases.",
         value: "item-6",
+    },
+    {
+        question: "What about other systems?",
+        answer: "I want to support other systems as I play and learn them, but I'll have to look at licensing agreements to ensure they allow the creation of digital tools. I would also like to make it easy for open source contributions of additional systems.",
+        value: "item-7",
     },
 ];
 

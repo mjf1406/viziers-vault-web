@@ -33,7 +33,7 @@ const teamMembers: TeamMemberProps[] = [
         role: "Founder & Lead Developer",
         description:
             "Elementary School Teacher, Web Developer, Programmer, Translator (Mandarin → English), D&D Forever DM, Cyclist, 3D Printer, 3D Modeler.",
-        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face",
+        avatar: "https://a-z-animals.com/media/2021/04/shutterstock_634628570.jpg",
         fallback: "MF",
         links: {
             github: "https://github.com/mjf1406",

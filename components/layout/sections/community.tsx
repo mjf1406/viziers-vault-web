@@ -26,7 +26,7 @@ export const CommunitySection = () => {
                                 <div>
                                     Join the
                                     <span className="text-transparent pl-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                                        TTRPG Community
+                                        Vizier Vault Community
                                     </span>
                                 </div>
                             </CardTitle>

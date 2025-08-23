@@ -32,20 +32,21 @@ export const ContactSection = () => {
                         <div className="mx-auto w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                             <Mail className="w-6 h-6 text-primary" />
                         </div>
-                        <CardTitle>Email Support</CardTitle>
+                        <CardTitle>Get Support</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground mb-4">
-                            Get help with technical issues or account questions.
+                            I&apos;m one person, the sole developer, so I rely
+                            on the community to provide support if I am not
+                            available. Plesse join the Discord for support.
                         </p>
                         <Button
                             asChild
                             variant="outline"
                             className="w-full"
                         >
-                            <Link href="mailto:support@viziers-vault.com">
-                                Contact Support
-                            </Link>
+                            {/* TODO: Update the Discord join link */}
+                            <Link href="#">Join the Discord</Link>
                         </Button>
                     </CardContent>
                 </Card>
@@ -55,21 +56,30 @@ export const ContactSection = () => {
                         <div className="mx-auto w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                             <MessageCircle className="w-6 h-6 text-primary" />
                         </div>
-                        <CardTitle>Feature Requests</CardTitle>
+                        <CardTitle>Feedback</CardTitle>
                     </CardHeader>
                     <CardContent>
                         <p className="text-muted-foreground mb-4">
                             Suggest new features or improvements for future
-                            releases.
+                            releases via Google Forms (preferred) or Discord.
                         </p>
+                        <Button
+                            asChild
+                            variant="outline"
+                            className="w-full mb-2"
+                        >
+                            {/* TODO: add a google form link here and a join Discord button */}
+                            <Link href="mailto:feedback@viziers-vault.com">
+                                Send Feedback
+                            </Link>
+                        </Button>
                         <Button
                             asChild
                             variant="outline"
                             className="w-full"
                         >
-                            <Link href="mailto:feedback@viziers-vault.com">
-                                Send Feedback
-                            </Link>
+                            {/* TODO: Update the Discord join link */}
+                            <Link href="#">Join the Discord</Link>
                         </Button>
                     </CardContent>
                 </Card>
@@ -84,6 +94,16 @@ export const ContactSection = () => {
                     <CardContent>
                         <p className="text-muted-foreground mb-4">
                             View the source code or contribute to the project.
+                            Please note that the project is licnesed under{" "}
+                            <Link
+                                className="underline"
+                                href={
+                                    "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en"
+                                }
+                            >
+                                CC BY-NC-SA 4.0
+                            </Link>
+                            .
                         </p>
                         <Button
                             asChild
@@ -91,7 +111,7 @@ export const ContactSection = () => {
                             className="w-full"
                         >
                             <Link
-                                href="https://github.com/mjf1406/viziers-vault-web"
+                                href="https://github.com/mjf1406/viziers-vault-app"
                                 target="_blank"
                             >
                                 View on GitHub

@@ -3,6 +3,7 @@
 import { Separator } from "@/components/ui/separator";
 import { ChevronsDownIcon } from "lucide-react";
 import Link from "next/link";
+import { getAvailableTools } from "@/lib/tools";
 
 export const FooterSection = () => {
     return (
@@ -29,60 +30,38 @@ export const FooterSection = () => {
 
                     <div className="flex flex-col gap-2">
                         <h3 className="font-bold text-lg">Tools</h3>
-                        <div>
-                            <Link
-                                href="#"
-                                className="opacity-60 hover:opacity-100"
-                            >
-                                Magic Shop Generator
-                            </Link>
-                        </div>
-
-                        <div>
-                            <Link
-                                href="#"
-                                className="opacity-60 hover:opacity-100"
-                            >
-                                Spellbook Generator
-                            </Link>
-                        </div>
-
-                        <div>
-                            <Link
-                                href="#"
-                                className="opacity-60 hover:opacity-100"
-                            >
-                                Encounter Generator
-                            </Link>
-                        </div>
+                        {getAvailableTools().map((tool) => (
+                            <div key={tool.id}>
+                                <Link
+                                    href="#"
+                                    className="opacity-60 hover:opacity-100"
+                                >
+                                    {tool.title}
+                                </Link>
+                            </div>
+                        ))}
                     </div>
 
                     <div className="flex flex-col gap-2">
                         <h3 className="font-bold text-lg">Resources</h3>
+
                         <div>
                             <Link
-                                href="#"
+                                href="https://open5e.com/"
+                                target="_blank"
                                 className="opacity-60 hover:opacity-100"
                             >
-                                D&D 5e 2024
+                                Open5e
                             </Link>
                         </div>
 
                         <div>
                             <Link
-                                href="#"
+                                href="https://www.dndbeyond.com/"
+                                target="_blank"
                                 className="opacity-60 hover:opacity-100"
                             >
-                                Battle Map Generator
-                            </Link>
-                        </div>
-
-                        <div>
-                            <Link
-                                href="#"
-                                className="opacity-60 hover:opacity-100"
-                            >
-                                World Generator
+                                D&D Beyond
                             </Link>
                         </div>
                     </div>
@@ -121,7 +100,7 @@ export const FooterSection = () => {
                         <h3 className="font-bold text-lg">Community</h3>
                         <div>
                             <Link
-                                href="https://github.com/mjf1406/viziers-vault-web"
+                                href="https://github.com/mjf1406/viziers-vault-app"
                                 target="_blank"
                                 className="opacity-60 hover:opacity-100"
                             >
@@ -188,6 +167,13 @@ export const FooterSection = () => {
                     </p>
 
                     <div className="flex gap-4">
+                        <Link
+                            href="https://shadcn-landing-page-livid.vercel.app/"
+                            target="_blank"
+                            className="opacity-60 hover:opacity-100"
+                        >
+                            Landing Page Template
+                        </Link>
                         <Link
                             href="#"
                             className="opacity-60 hover:opacity-100"

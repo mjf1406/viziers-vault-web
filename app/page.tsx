@@ -8,6 +8,7 @@ import { FAQSection } from "@/components/layout/sections/faq";
 import { FeaturesSection } from "@/components/layout/sections/features";
 import { FooterSection } from "@/components/layout/sections/footer";
 import { HeroSection } from "@/components/layout/sections/hero";
+import { IntegrationSection } from "@/components/layout/sections/integration";
 import { PhilosophySection } from "@/components/layout/sections/philosophy";
 import { PricingSection } from "@/components/layout/sections/pricing";
 import { ServicesSection } from "@/components/layout/sections/services";
@@ -47,15 +48,16 @@ export default function Home() {
         <>
             <HeroSection />
             <FeaturesSection />
+            <IntegrationSection />
             <PhilosophySection />
             <ServicesSection />
             <BenefitsSection />
             <PricingSection />
-            <TeamSection />
             <DisclosureSection />
             <CommunitySection />
             <FAQSection />
             <ContactSection />
+            <TeamSection />
             <FooterSection />
         </>
     );

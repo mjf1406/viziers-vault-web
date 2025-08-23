@@ -38,7 +38,8 @@ export const HeroSection = () => {
                     <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
                         Create magic shops, encounters, spellbooks, battle maps,
                         and worlds for your D&D 5e 2024 campaigns. Built for
-                        game masters and players.
+                        game masters to create and then share with their
+                        players.
                     </p>
 
                     <div className="space-y-4 md:space-y-0 md:space-x-4">

@@ -35,10 +35,10 @@ const plans: PlanProps[] = [
             "Basic access to core generators with limited features and no data persistence.",
         buttonText: "Start Using Free",
         benefitList: [
-            "Magic Shop Generator (premade cities only)",
-            "Spellbook Generator",
+            "Premade worlds & cities only",
             "CSV export only",
-            "No data persistence",
+            "VTT export",
+            "Image export",
             "Community support",
         ],
     },
@@ -48,14 +48,13 @@ const plans: PlanProps[] = [
         price: 3,
         description:
             "Full access to all features with data persistence and advanced capabilities.",
-        buttonText: "Start Free Trial",
+        buttonText: "Start 4-month free Trial",
         benefitList: [
             "All generators (current and future)",
             "Create custom worlds and cities",
             "Permalink generation",
             "Data persistence and export",
-            "Priority support",
-            "Free month trial included",
+            "Free 4-month trial included",
         ],
     },
 ];
@@ -128,7 +127,7 @@ export const PricingSection = () => {
                                 </div>
                             </CardContent>
 
-                            <CardFooter>
+                            <CardFooter className="flex flex-col items-center">
                                 <Button
                                     asChild
                                     variant={
@@ -142,6 +141,12 @@ export const PricingSection = () => {
                                         {buttonText}
                                     </Link>
                                 </Button>
+
+                                {popular === PopularPlan.YES && (
+                                    <p className="w-full text-center text-sm text-muted-foreground mt-2">
+                                        No credit card required
+                                    </p>
+                                )}
                             </CardFooter>
                         </Card>
                     )
