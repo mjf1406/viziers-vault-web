@@ -11,6 +11,7 @@
 -   added terms of service
 -   added cookie policy
 -   updated tools links in the Footer
+-   updated the logo
 
 ## Change Log
 
