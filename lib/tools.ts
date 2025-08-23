@@ -164,7 +164,7 @@ export const tools: Tool[] = [
         description:
             "Create star systems with multiple worlds, planets, and celestial bodies.",
         status: "TBD - A wild dream",
-        icon: "Sparkle",
+        icon: "Star",
         philosophy:
             "I haven't really thought much of this one other than it'd be super cool for those Spelljammer and sci-fi campaigns.",
         features: [
@@ -184,7 +184,7 @@ export const tools: Tool[] = [
         description:
             "Generate entire galaxies with multiple star systems and cosmic structures.",
         status: "TBD - A wild dream",
-        icon: "Sparkles",
+        icon: "Orbit",
         philosophy:
             "I just think it'd be super cool to make this with an awesome map that has a sort of super zoom from the galaxy to the star system to the planet to the continent to the region to the battle map / city / town / etc. Oh and Spelljammer and sci-fi campaigns in something like that would be dope.",
         features: [
