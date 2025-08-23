@@ -10,11 +10,12 @@
 -   added privacy policy
 -   added terms of service
 -   added cookie policy
--   updated tools links in the Footer
 -   updated the logo
 
 ## Change Log
 
 ### 2025/08/23
 
+-   updated tools links in the footer
 -   v1 is up
+-   added docs and blog links in the footer

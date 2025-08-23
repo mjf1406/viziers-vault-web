@@ -33,7 +33,7 @@ export const FooterSection = () => {
                         {getAvailableTools().map((tool) => (
                             <div key={tool.id}>
                                 <Link
-                                    href="#"
+                                    href={tool.url}
                                     className="opacity-60 hover:opacity-100"
                                 >
                                     {tool.title}
@@ -62,6 +62,24 @@ export const FooterSection = () => {
                                 className="opacity-60 hover:opacity-100"
                             >
                                 D&D Beyond
+                            </Link>
+                        </div>
+                        <div>
+                            <Link
+                                href="https://resources.viziersvault.com/Docs"
+                                target="_blank"
+                                className="opacity-60 hover:opacity-100"
+                            >
+                                Docs
+                            </Link>
+                        </div>
+                        <div>
+                            <Link
+                                href="https://resources.viziersvault.com/Blog"
+                                target="_blank"
+                                className="opacity-60 hover:opacity-100"
+                            >
+                                Blog
                             </Link>
                         </div>
                     </div>

@@ -17,6 +17,7 @@ export interface Tool {
     connections: string[];
     category: "Generator" | "Management";
     order: number;
+    url: string;
 }
 
 export const tools: Tool[] = [
@@ -40,6 +41,7 @@ export const tools: Tool[] = [
         connections: ["World Generator"],
         category: "Generator",
         order: 1,
+        url: "https://app.viziersvault.com/magic-shop-generator",
     },
     {
         id: "spellbook-generator",
@@ -60,6 +62,7 @@ export const tools: Tool[] = [
         connections: [],
         category: "Generator",
         order: 2,
+        url: "https://app.viziersvault.com/spellbook-generator",
     },
     {
         id: "encounter-generator",
@@ -81,6 +84,7 @@ export const tools: Tool[] = [
         connections: ["Party Management", "Battle Map Generator"],
         category: "Generator",
         order: 3,
+        url: "https://app.viziersvault.com/encounter-generator",
     },
     {
         id: "party-management",
@@ -102,6 +106,7 @@ export const tools: Tool[] = [
         connections: ["Encounter Generator", "World Generator"],
         category: "Management",
         order: 4,
+        url: "https://app.viziersvault.com/parties",
     },
     {
         id: "battle-map-generator",
@@ -124,6 +129,7 @@ export const tools: Tool[] = [
         connections: ["Encounter Generator"],
         category: "Generator",
         order: 5,
+        url: "https://app.viziersvault.com/battle-map-generator",
     },
     {
         id: "world-generator",
@@ -150,6 +156,7 @@ export const tools: Tool[] = [
         ],
         category: "Generator",
         order: 6,
+        url: "https://app.viziersvault.com/world-generator",
     },
     {
         id: "star-system-generator",
@@ -169,6 +176,7 @@ export const tools: Tool[] = [
         connections: ["World Generator"],
         category: "Generator",
         order: 7,
+        url: "https://app.viziersvault.com/star-system-generator",
     },
     {
         id: "galaxy-generator",
@@ -188,6 +196,7 @@ export const tools: Tool[] = [
         connections: ["Star System Generator"],
         category: "Generator",
         order: 8,
+        url: "https://app.viziersvault.com/galaxy-generator",
     },
 ];
 
