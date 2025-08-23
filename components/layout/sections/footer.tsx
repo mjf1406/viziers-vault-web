@@ -44,24 +44,13 @@ export const FooterSection = () => {
 
                     <div className="flex flex-col gap-2">
                         <h3 className="font-bold text-lg">Resources</h3>
-
                         <div>
                             <Link
-                                href="https://open5e.com/"
+                                href="https://www.viziersvault.com/"
                                 target="_blank"
                                 className="opacity-60 hover:opacity-100"
                             >
-                                Open5e
-                            </Link>
-                        </div>
-
-                        <div>
-                            <Link
-                                href="https://www.dndbeyond.com/"
-                                target="_blank"
-                                className="opacity-60 hover:opacity-100"
-                            >
-                                D&D Beyond
+                                Home
                             </Link>
                         </div>
                         <div>
